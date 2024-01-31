@@ -19,13 +19,15 @@
 **README.md:** You are currently reading the project's README file, which provides general information and instructions to get started.
 
 ## Game Rules
-The rules of the Tetris game are simple. A piece, composed of four elements, is randomly chosen from seven possible shapes. Once selected, the piece falls into a well under the force of gravity. During its descent, the player can manipulate the piece by moving it left or right or by rotating it clockwise or counterclockwise.
+<div style="text-align: justify">
+  The rules of the Tetris game are simple. A piece, composed of four elements, is randomly chosen from seven possible shapes. Once selected, the piece falls into a well under the force of gravity. During its descent, the player can manipulate the piece by moving it left or right or by rotating it clockwise or counterclockwise.
+  
+  When a piece reaches the bottom of the well, it becomes immobile, and its elements are added to a stack of elements at the bottom of the well. If a piece touches an element of the stack, its elements are also added to the stack.
+  
+  When the elements of a piece form a horizontal line crossing the well, the line is cleared, the player scores points, and the elements above the cleared line move down.
 
-When a piece reaches the bottom of the well, it becomes immobile, and its elements are added to a stack of elements at the bottom of the well. If a piece touches an element of the stack, its elements are also added to the stack.
-
-When the elements of a piece form a horizontal line crossing the well, the line is cleared, the player scores points, and the elements above the cleared line move down.
-
-If the stack reaches the top of the well, the game ends.
+  If the stack reaches the top of the well, the game ends.
+</div>
 
 ## My Implementation
 This project will allow you to create a simplified version of the Tetris game, where two types of pieces (the I and O pieces) fall into a well and are controlled by the player using their mouse. The stack will build up based on the fallen pieces.
