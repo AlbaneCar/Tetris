@@ -29,9 +29,6 @@
   If the stack reaches the top of the well, the game ends.
 </div>
 
-## My Implementation
-This project will allow you to create a simplified version of the Tetris game, where two types of pieces (the I and O pieces) fall into a well and are controlled by the player using their mouse. The stack will build up based on the fallen pieces.
-
 ## Model-View-Controller (MVC) Architecture
 The Model-View-Controller (MVC) architecture model has existed since the early days of Smalltalk. It provides a high-level classification of different types of objects in an application and defines their roles.
 
